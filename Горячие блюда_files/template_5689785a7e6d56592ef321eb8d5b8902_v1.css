@@ -17109,6 +17109,13 @@ main{
 .catalog-col-4 .catalog-list__item {
   width:25%
 }
+.catalog-col-4 .c-grid > div[id^=bx] {
+  width:25%
+}
+.catalog-col-4 .c-grid > div[id^=bx] .catalog-list__item {
+  width: auto;
+}
+
 .c-card-catalog__count .c-counter,.c-card-product__count .c-counter{
   text-align:center;
   font-size:0
@@ -51647,6 +51654,12 @@ ul.slick-dots li.slick-active{
   .catalog-col-4 .catalog-list__item{
       width:33.3333%
   }
+  .catalog-col-4 .c-grid > div[id^=bx] {
+    width:33.3333%
+  }
+  .catalog-col-4 .c-grid > div[id^=bx] .catalog-list__item {
+    width: auto;
+  }
   .pie-filling__item{
       width:33.33333%!important
   }
@@ -51654,6 +51667,12 @@ ul.slick-dots li.slick-active{
 @media (max-width:1100px){
   .show-category .catalog-list.catalog-col-4 .catalog-list__item{
       width:50%
+  }
+  .show-category .catalog-list.catalog-col-4 .c-grid > div[id^=bx] {
+    width:50%
+  }
+  .show-category .catalog-list.catalog-col-4 .c-grid > div[id^=bx] .catalog-list__item {
+    width: auto;
   }
 }
 @media screen and (max-width:1060px) and (min-width:980px){
@@ -51664,6 +51683,12 @@ ul.slick-dots li.slick-active{
 @media (max-width:980px){
   .catalog-col-4 .catalog-list__item{
       width:50%
+  }
+  .catalog-col-4 .c-grid > div[id^=bx] {
+    width:50%
+  }
+  .catalog-col-4 .c-grid > div[id^=bx] .catalog-list__item {
+    width: auto;
   }
   .c-card-catalog.v2 .c-card-catalog__price>div{
       padding:.3rem 1rem
@@ -51686,6 +51711,12 @@ ul.slick-dots li.slick-active{
   .catalog-col-4 .catalog-list__item{
       width:100%
   }
+  .catalog-col-4 .c-grid > div[id^=bx] {
+    width:100%
+  }
+  .catalog-col-4 .c-grid > div[id^=bx] .catalog-list__item {
+    width: auto;
+  }
   .catalog-col-4 .c-card-catalog-2__footer .c-card-catalog__count{
       width:100%
   }
@@ -51701,6 +51732,12 @@ ul.slick-dots li.slick-active{
   }
   .pie .catalog-col-4 .catalog-list__item{
       width:50%
+  }
+  .pie .catalog-col-4 .c-grid > div[id^=bx] {
+    width:50%
+  }
+  .pie .catalog-col-4 .c-grid > div[id^=bx] .catalog-list__item {
+    width: auto;
   }
   .c-card-catalog.v2 .c-card-catalog__footer.v2 .c-card-catalog__price>div{
       padding:.5rem 1rem
